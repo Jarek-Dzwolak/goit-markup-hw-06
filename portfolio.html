@@ -310,7 +310,7 @@
         <footer class="footer-section">
             <div class="container">
                 <div class="footer-look">
-                    <a class="logo" href="index.html"
+                    <a href="#" class="logo" href="index.html"
                         >Web<span class="log-bright">Studio</span></a
                     >
                     <address>
@@ -331,7 +331,10 @@
                                 >
                             </li>
                             <li>
-                                <a class="link-contact" href="tel:+48111111111"
+                                <a
+                                    href="#"
+                                    class="link-contact"
+                                    href="tel:+48111111111"
                                     >+48 111 111 111</a
                                 >
                             </li>
@@ -369,6 +372,25 @@
                         </a>
                     </div>
                 </div>
+                <form class="footer-form">
+                    <label for="email" class="footer-label">
+                        Zapisz się do newslettera
+                    </label>
+                    <div class="footer-input-look">
+                        <input
+                            class="footer-input"
+                            type="email"
+                            name="email"
+                            placeholder="E-mail"
+                        />
+                        <button class="button-newsletter" type="submit">
+                            <p>Zapisz się</p>
+                            <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-icon-send" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
             </div>
         </footer>
     </body>
