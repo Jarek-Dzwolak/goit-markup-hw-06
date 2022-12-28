@@ -759,9 +759,13 @@ ul {
 .modal-input:focus {
     border-color: var(--style-color);
     outline: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:focus + svg {
     fill: var(--style-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-wrapper > svg {
     position: absolute;
